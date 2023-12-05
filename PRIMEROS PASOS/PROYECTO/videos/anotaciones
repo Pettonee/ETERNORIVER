@@ -1,0 +1,28 @@
+
+PARA SOMBRAS PARA LOGOS
+FILTER: DROP-SHADOW (?PX ?PX ?PX COLOR) = ES PARA EL ELEMENTO EN SI (solo para png)
+BOX-SHADOW ES PARA LA CAJA DEL ELEMNENTO
+
+
+@media (max-widht: 768ox) {
+    ?BOX: FLEX-WRAP
+}
+
+ESTO SIRVE PARA CUANDO SE ACHICA EL ANCHO DE LA PANTALLA(CASO CELULAR, TABLET,ETC..) NO SE ROMPA LA PAGINA SINO QUE SE ORDENEN LOS BOX HACIENDO QUE SE PONGAN DE FORMA VERTICAL (DE A UNO)
+ES DECIR PRIMERO ESTAN ASI: *CAJA CAJA CAJA* Y LUEGO ASI *CAJA CAJA*
+                                                            *CAJA*
+
+scroll-behavior: smooth; -> es para cuando vos poner en el nav una seccion que esta en esa pagina y apretas para que te re dirija y scrolee mas abajo y esta funcion lo q hace es que no se tan 
+brusco el scroleo sino mas suave
+scroll-padding-top: (altura del nav)px es para tomar en cuenta el alto del nav al scrollear
+
+
+
+el script se pone eln la ultima linea del body osea
+cierre footer
+script
+cierre body
+
+
+
+///////////////////HACER CARRUSEL FORMA CELU///////////////////

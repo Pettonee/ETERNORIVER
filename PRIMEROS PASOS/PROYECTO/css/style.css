@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap');
+
+/*/////////NAV/////////////////*/
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+#navBar:active {
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+
+    
+}
+header nav{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    
+}
+
+ul {
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+#navBar {
+    height: 185px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NOSOTROS {
+    width: 30%;
+    height: 30%;
+}
+
+
+#navBar ul a:hover{
+    color: red;
+    font-size: 42px;
+    transition: 1s;
+}
+
+#navBar ul a {
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.box {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+/*/////////////////MAIN///////////////*/
+.guia {
+    width: 960px;
+    height: 540px;
+    margin-left: 850px;
+}
+
+
+main table{
+    width: 830px;
+    height: 230px;
+
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: black;
+}
+main table col{
+    background-color:red;
+}
+
+.idolos {
+    margin-top: 120px;
+}
+
+body {
+    font: 100% / normal sans-serif;
+    background-image: url(../imagenes/banda.png);
+    max-width: 1920px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
+}
+
+main {
+
+    padding: 4rem 0;
+    width: auto;
+    max-width: 170rem;
+}
+
+.buscando{
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0 70px 0 70px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.buscando, textarea {
+    max-width: 1750px;
+    border-radius: 1rem;
+    max-height: 300px;
+    min-height: 20px;
+}
+
+.full-width {
+    grid-column: span 4;
+    font-size: larger ;
+    
+}
+.full-width button {
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
+    
+}
+
+.full-width textarea {
+    border: 4px solid hsl(0, 0%, 0%);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+
+.eterno{
+    height: 200px;
+    width:200px;
+
+}
+
+#caja {
+    width: 1900px;
+    height: 400px;
+        display: flex;
+
+}
+#caja > div {
+    margin-top: 100px ;
+    margin-bottom: 230px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background: white;
+}
+
+.cajacamion {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 8px solid hsl(0, 0%, 0%);
+}
+.cajacamion h1 {
+    margin-left: 210px;
+    margin-top: -107px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.cajacamion h2 {
+    margin-left: 210px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    width: 200px;
+}
+.cajaseguro h1 {
+    margin-left: 210px;
+    margin-top: -230px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    width: 400px;
+}
+.cajaseguro h2 {
+    margin-left: 210px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    width: 200px;
+}
+.cajatarjeta h1 {
+    margin-left: 210px;
+    margin-top: -120px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    width: 400px;
+}
+.cajatarjeta h2 {
+    margin-left: 210px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    width: 200px;
+}
+
+
+#camion {
+    width: 166px;
+    height: 100px;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+#seguro{
+    width: 500px;
+    height: 370px;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+
+#tarjeta{
+    width: 150px;
+    height: 130px;
+    margin-top: 28px;
+    margin-left: 19px;
+}
+
+.cajatarjeta {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    border: 8px solid hsl(0, 0%, 0%);
+
+}
+
+.cajaseguro {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    border: 8px solid hsl(0, 0%, 0%);
+
+}
+
+.titulogrid {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    display: flex;
+    max-width: 100%;
+    filter: drop-shadow(3px 3px 3px black);
+}
+.grid-container2 {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    display: flex;
+    max-width: 100%;
+    margin-top: 30px;
+    filter: drop-shadow(3px 3px 3px black);
+    
+}
+
+.grid-container1 img {
+    border-radius: 10px;
+}
+.grid-container2 img {
+    border-radius: 10px;
+}
+.grid-item2 img {
+    width: 600px;
+    margin-top: 50px;
+
+}
+.grid-item1 img {
+    width: 600px;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+.grid-item4 img {
+    width: 600px;
+    margin-top: -60PX;
+
+}
+.grid-item3 img {
+    width: 600px;
+    margin-left: 320px;
+    margin-top: -10px;
+}
+
+
+/*////////////FOOTER/////////////*/
+
+.eternos {
+    margin-left: 730px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.boxbandera {
+    width: 100%;
+    height: 8px;
+    background-color:white;
+}
+.boxbandera1 {
+    width: 100%;
+    height: 8px;
+    background-color: red ;
+
+
+}
+.boxbandera2 {
+    width: 100%;
+    height: 8px;
+    background-color:white;
+}
+
+
+footer{
+    margin-top: 1000px;
+}
+
+footer article ul li {
+    display: inline-block;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 60px;
+
+    color: white;
+
+    
+}
+footer article{
+    text-align: center;
+    height: 200px;    height: 185px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+
+ul {
+    font-family: 'Istok Web', sans-serif;
+}
+
+/*///////////////TIENDA/////////////*/
+
+
+
+.producto2{
+    background-image: url(../imagenes/C2.jpg);
+    margin-left: 400px;
+}
+.producto3 {
+    background-image: url(../imagenes/aaa.jpg);
+    margin-left: 100px;
+}
+.producto4 {
+    background-image: url(../imagenes/C1.jpeg);
+    margin-left: 100px;
+}
+.producto5 {
+    background-image: url(../imagenes/c8.jpg);
+    margin-left: 400px;
+}
+.producto6 {
+    background-image: url(../imagenes/C14.jpg);
+    margin-left: 100px;
+}
+.producto7 {
+    background-image: url(../imagenes/C12.jpg);
+    margin-left: 100px;
+}
+
+.producto2,
+.producto3,
+.producto4,
+.producto5,
+.producto6,
+.producto7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 332PX;
+    height: 332px;
+    border: 2px solid hsl(0, 0%, 0%);
+    margin-top: 100PX;
+    filter: drop-shadow(5px 5px 5px black);
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 0;
+    float: left;
+}
+
+.producto4:hover {
+    background-image: url(../imagenes/jugador3.jpg);
+}
+.producto2:hover {
+    background-image: url(../imagenes/jugador1.jpg);
+}
+.producto3:hover {
+    background-image: url(../imagenes/jugador2.jpg);
+}
+.producto5:hover{
+    background-image: url(../imagenes/jugador8.jpeg);
+}
+.producto6:hover {
+    background-image: url(../imagenes/jugador14.png);
+}.producto7:hover {
+    background-image: url(../imagenes/jugador12.jpg);
+}
+
+.producto4:hover,
+.producto2:hover,
+.producto3:hover,
+.producto5:hover,
+.producto6:hover,
+.producto7:hover {
+    width: 348px;
+    height: 348px;
+    filter: drop-shadow(0px 0px 0px black);
+    margin-left: 92px;
+}
+
+
+.descripcion2,
+.descripcion3,
+.descripcion4,
+.descripcion5,
+.descripcion6,
+.descripcion7
+{
+    width: 332px;
+    height: 70px;
+    filter: drop-shadow(5px 5px 5px black);
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: white;
+    float: left;
+    padding: 0;
+    margin-bottom: -50px;
+}
+
+.descripcion2 {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.descripcion2 h1,
+.descripcion3 h1,
+.descripcion4 h1,
+.descripcion5 h1,
+.descripcion6 h1,
+.descripcion7 h1 {
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 5px;
+}
+.descripcion2 h2,
+.descripcion3 h2,
+.descripcion4 h2,
+.descripcion5 h2,
+.descripcion6 h2,
+.descripcion7 h2 {
+    
+    float: right;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: larger;
+    margin-top: 2px;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 2px;
+    font-weight: normal;
+
+}
+.descripcion3 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.descripcion4 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.descripcion5 {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.descripcion6 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.descripcion7 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.descripcion2:hover,
+.descripcion3:hover,
+.descripcion4:hover,
+.descripcion5:hover,
+.descripcion6:hover,
+.descripcion7:hover {
+    width: 348px;
+    height: 74px;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 0px black);
+    margin-left: 92px;
+}
+
+
+
+.titulo {
+    margin-top: 150px; 
+}
+
+#talle  {
+    width: 174px;
+}
+#categoria {
+    width: 40px;
+}
+#PRECIO{
+    width: 174px;
+}
+
+#enviar {
+    width: 70px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+}
+
+.FILTROS {
+    width: 226px;
+    height: 210px;
+    border: 2px solid hsl(0, 0%, 0%);
+    margin-left: 50px;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 14px;
+    font-family: 'Cairo', sans-serif;
+    outline: 0;
+    background: white;
+    color:black;
+    border: 2px solid black;
+    padding: 4px;
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 20px;
+    
+}
+
+#main {
+    min-height: 100vh;
+}
+
+#footer {
+    margin-top: auto;
+}
+
